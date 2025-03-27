@@ -1,9 +1,7 @@
 import { Suspense } from 'react';
 import type { Metadata } from 'next';
 
-
 import { lusitana } from '@/app/ui/fonts';
-import { Card } from '@/app/ui/dashboard/cards';
 import CardWrapper from '@/app/ui/dashboard/cards';
 import RevenueChart from '@/app/ui/dashboard/revenue-chart';
 import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
